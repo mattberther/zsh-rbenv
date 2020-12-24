@@ -9,7 +9,7 @@ _zsh_rbenv_install() {
 }
 
 _zsh_rbenv_load() {
-eval "$(rbenv init -)"
+  eval "$(rbenv init - zsh)"
 }
 
 _zsh_rbenv_upgrade() {
