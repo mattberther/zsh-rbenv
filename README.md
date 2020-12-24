@@ -23,14 +23,14 @@ If you want to upgrade to the latest rbenv :
 Bundle `zsh-rbenv` in your `.zshrc`
 
 ```shell
-antigen bundle cswl/zsh-rbenv
+antigen bundle mattberther/zsh-rbenv
 ```
 
 ### Using [zplug](https://github.com/b4b4r07/zplug)
 Load `zsh-rbenv` as a plugin in your `.zshrc`
 
 ```shell
-zplug "cswl/zsh-rbenv"
+zplug "mattberther/zsh-rbenv"
 
 ```
 ### Using [zgen](https://github.com/tarjoilija/zgen)
@@ -38,7 +38,7 @@ zplug "cswl/zsh-rbenv"
 Include the load command in your `.zshrc`
 
 ```shell
-zgen load cswl/zsh-rbenv
+zgen load mattberther/zsh-rbenv
 ```
 
 ### As an [Oh My ZSH!](https://github.com/robbyrussell/oh-my-zsh) custom plugin
@@ -46,7 +46,7 @@ zgen load cswl/zsh-rbenv
 Clone `zsh-rbenv` into your custom plugins repo
 
 ```shell
-git clone https://github.com/cswl/zsh-rbenv ~/.oh-my-zsh/custom/plugins/zsh-rbenv
+git clone https://github.com/mattberther/zsh-rbenv ~/.oh-my-zsh/custom/plugins/zsh-rbenv
 ```
 Then load as a plugin in your `.zshrc`
 
@@ -60,7 +60,7 @@ Keep in mind that plugins need to be added before `oh-my-zsh.sh` is sourced.
 Clone this repository somewhere (`~/.zsh-rbenv` for example)
 
 ```shell
-git clone https://github.com/cswl/zsh-rbenv.git ~/.zsh-rbenv
+git clone https://github.com/mattberther/zsh-rbenv.git ~/.zsh-rbenv
 ```
 Then source it in your `.zshrc` (or `.bashrc`)
 
